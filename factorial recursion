@@ -1,0 +1,17 @@
+#include <stdio.h>
+int rec(int a){
+	if(a==0)
+	return 0;
+	else if(a==1)
+	return 1;
+	else
+	return a*rec(a-1);
+}
+int main() {
+    printf("Name: surya\nReg no: 192324024\n");
+    int n;
+    printf("n= ");
+    scanf("%d", &n);
+    printf("\nfactorial of the given number is %d ",rec(n));
+    return 0;
+}
