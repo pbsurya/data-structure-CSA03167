@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout<<"Name: surya p.b"<<endl<<"Reg no: 192324024"<<endl;
+    int n;
+    cout<<"Enter the number of terms for Fibonacci series: ";
+    cin>>n;
+    int n1=0,n2=1,t;
+    cout<<"Fibonacci Series up to %d terms:\n";
+    cout<<n1<<n2;
+    for (int i = 3; i <= n; ++i) {
+        t=n1+n2;
+        cout<<t;
+        n1=n2;
+        n2=t;
+    }
+    cout<<"\n";
+    return 0;
+}
