@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"surya p.b"<<endl<<"192324024"<<endl;
+	int r1=2,c1=3,r2=3,c2=2,i,j,k,c[50][50];
+	int a[2][3]={{1,2,3,},{1,2,3}},b[3][2]={{3,1},{2,1},{1,1}};
+	if(r1==r2)
+	cout<<"matrix 1:"<<endl;
+	for(i=0;i<r1;i++)
+	{
+		for(j=0;j<c1;j++)
+		cout<<a[i][j];
+		cout<<"\n";
+	}
+	cout<<"matrix 2:"<<endl;
+	for(i=0;i<r2;i++)
+	{
+		for(j=0;j<c2;j++)
+		cout<<b[i][j];
+		cout<<"\n";
+	}
+	cout<<"resultant matrix:"<<endl;
+	for(i=0;i<r1&&i<r2;i++)
+	{
+		for(j=0;j<c1&&j<c2;j++)
+		{
+			c[i][j]=0;
+			for(k=0;k<c1||k<c2;k++)
+			{
+				c[i][j]+=a[i][k]*a[k][j];
+			}
+			cout<<c[i][j];
+		}cout<<"\n";
+	}
+	
+}
