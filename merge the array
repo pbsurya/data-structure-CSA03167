@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	printf("Name:surya P.B\n");
+	printf("Reg no:192324024\n");
+  int n,m,i,p,a[50],b[50],c[50];
+  scanf("%d",&n);
+  for(i=0;i<n;i++)
+  {
+  	scanf("%d",&a[i]);
+  }
+  	scanf("%d",&m);
+  for(i=0;i<m;i++)
+  {
+  	scanf("%d",&b[i]);
+  }
+  for(i=0;i<n;i++)
+ {
+ 	c[i]=a[i];
+  }
+  for(i=0;i<m;i++)
+  {
+  	c[i+n]=b[i];
+  }
+  	p=m+n;
+   for(i=0;i<p;i++)
+   printf("%d",c[i]);
+}
