@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    printf("Name: surya\nReg no: 192324024\n");
+    int n,fact=1;
+    printf("n= ");
+    scanf("%d", &n);
+    int temp=n;
+    while(temp>=1){
+    	fact=fact*temp;
+    	temp--;
+	}
+	printf("\n%d factorial is %d",n,fact);
+    return 0;
+}
