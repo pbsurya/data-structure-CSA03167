@@ -25,3 +25,17 @@ Find the nth Fibbonacci number using recursion<br/>
 Find the Factorial of a given number using recursion<br/>
 Linear search of array<br/>
 Binary search of array<br/>
+
+Day 3 – Singly Linked List<br/>
+1.	Implement SLL with following operations<br/>
+Insert(Beg,Mid,End)<br/>
+Delete(Beg,Mid,End)<br/>
+Display<br/>
+Search<br/>
+Sort<br/>
+Find Max and Min<br/>
+2.	To determine whether a given singly linked list is a palindrome<br/>
+3.	To merge two sorted singly linked lists into a single sorted linked list<br/>
+4.	Print no of nodes in the given linked list<br/>
+5.	Intersect SLL<br/>
+6.	Reverse - SLL<br/>
