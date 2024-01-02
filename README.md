@@ -97,3 +97,6 @@ Day 8<br />
 8.2. Implement Binary Search Tree and perform Insertion and Deletion<br />
 8.3. Create Binary Search Tree with Tree Traversal (Inorder, Preorder, Postorder and Level order)<br /> 
 
+ Day 9<br/>
+ implement a c program for avl tree and perform insertion and deletion of nodes<br/>
+ 
